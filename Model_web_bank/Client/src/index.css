@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100;300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* top: 0; */
+}
+
+/* h1,h4,p,a {
+  color: #fff;
+} */
+.toast-success{
+  background-color:green;
+  color:white;
+}
+.toast-error{
+  background-color:red;
+  color:rgb(32, 227, 133);
+}
+body {
+  margin: 0;
+  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* background: #000; */
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  transition: 0.5s;
+}
+
+.btn-light {
+  padding: 12px 32px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  background: rgba(46, 199, 223, 0.2);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: rgba(218, 123, 123, 0.2);
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  /* box-shadow: 0 55px 60px rgba(38, 232, 58, 0.558); */
+}
+.btn-light:hover{
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background:transparent;
+}
